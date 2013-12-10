@@ -1,0 +1,26 @@
+{
+  "name": "emberjs-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "bower": "1.2.x",
+    "connect-assets": "2.5.x",
+    "express": "3.3.x",
+    "express-hbs": "0.5.2",
+    "gzippo": "0.2.x",
+    "less": "1.5.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-develop": "~0.2.2"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
